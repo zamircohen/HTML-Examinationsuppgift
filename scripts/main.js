@@ -85,16 +85,14 @@ $(function() {
     $("#submitButton").on('click', function(){
             
         $('.contact')
-        // .$(this).fadeOut("slow")
         .text("Tack för ditt meddelande. Vi återkopplar så fort vi kan")
       });
 
 
     $("#createButton").on('click', function(){
             
-        $('.form-style-2')
-        // .$(this).fadeOut("slow")
-        .text("Ditt event är nu skapat")
+        $('.container')
+        .text("Ditt event är nu skapat!")
       });
 
 })
